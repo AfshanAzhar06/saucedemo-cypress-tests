@@ -1,0 +1,145 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 2,
+    "passes": 2,
+    "pending": 1,
+    "failures": -1,
+    "start": "2025-05-05T15:15:22.554Z",
+    "end": "2025-05-05T15:15:32.349Z",
+    "duration": 9795,
+    "testsRegistered": 3,
+    "passPercent": 100,
+    "pendingPercent": 33.33333333333333,
+    "other": 1,
+    "hasOther": true,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "5a88fb91-96bf-4d19-a810-91f612af1725",
+      "title": "",
+      "fullFile": "cypress\\e2e\\spec.cy.js",
+      "file": "cypress\\e2e\\spec.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "153ff763-801d-46ba-a335-8600cd19a15a",
+          "title": "Test Login functionality",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "should open application under test",
+              "fullTitle": "Test Login functionality should open application under test",
+              "timedOut": null,
+              "duration": 7358,
+              "state": "passed",
+              "speed": "medium",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "288a5bc0-ed65-4799-9b79-0c1204d2f3b3",
+              "parentUUID": "153ff763-801d-46ba-a335-8600cd19a15a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should not open application under test",
+              "fullTitle": "Test Login functionality should not open application under test",
+              "timedOut": null,
+              "duration": 0,
+              "state": "pending",
+              "speed": null,
+              "pass": false,
+              "fail": false,
+              "pending": true,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "bc8ec1a0-6271-41c7-891c-909f016b716b",
+              "parentUUID": "153ff763-801d-46ba-a335-8600cd19a15a",
+              "isHook": false,
+              "skipped": false
+            },
+            {
+              "title": "should navigate to product page when clicking on a product",
+              "fullTitle": "Test Login functionality should navigate to product page when clicking on a product",
+              "timedOut": null,
+              "duration": 1517,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "",
+              "err": {},
+              "uuid": "770b5be0-e1d9-4d0f-94b7-e38bdd431081",
+              "parentUUID": "153ff763-801d-46ba-a335-8600cd19a15a",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "288a5bc0-ed65-4799-9b79-0c1204d2f3b3",
+            "770b5be0-e1d9-4d0f-94b7-e38bdd431081"
+          ],
+          "failures": [],
+          "pending": [
+            "bc8ec1a0-6271-41c7-891c-909f016b716b"
+          ],
+          "skipped": [],
+          "duration": 8875,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "cypress-Report",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": false
+      },
+      "version": "7.1.3"
+    },
+    "marge": {
+      "options": {
+        "code": false,
+        "overwrite": false,
+        "reportFilename": "cypress-Report",
+        "autoOpen": true,
+        "charts": true
+      },
+      "version": "6.2.0"
+    }
+  }
+}
